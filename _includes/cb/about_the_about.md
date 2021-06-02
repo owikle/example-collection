@@ -15,13 +15,13 @@ We hope this makes it easier for site builders to develop the collection AND add
 
 - Image --> `{% raw %}{% include feature/item-figure.html objectid="demo_001" width="75" %}{% endraw %}`
 
-{% include feature/item-figure.html objectid="demo_001" width="75" %}
+{% include feature/item-figure.html objectid="psychiana008" width="75" %}
 
 #### Include a PDF
 
 - PDF -- > `{% raw %}{% include feature/item-pdf-embed.html objectid="demo_002"  width="50" %}{% endraw %}`
 
-{% include feature/item-pdf-embed.html objectid="demo_002" width="50" %}
+{% include feature/item-pdf-embed.html objectid="psychiana006" width="50" %}
 
 #### Include a Video
 
