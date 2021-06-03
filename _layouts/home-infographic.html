@@ -5,20 +5,21 @@ custom-foot: js/carousel-js.html
 {%- assign items = site.data[site.metadata] -%}
 <div class="row">
   <div class="col-md-12">
-  {% include index/carousel.html %}
+
+  {% include feature/timelinejs.html %}
   
   </div>
-  <div class="col-md-3">  
+  <div class="col-md-6">  
 
     {% include index/time.html %}
-</div>
-  <div class="col-md-3"> 
+ 
     {% include index/featured-terms.html field="subject" title="Top Subjects" btn-color="info" featured=site.data.theme.featured-subjects max=site.data.theme.featured-subjects-max %}
-</div>
-  <div class="col-md-3"> 
+ 
+  </div>
+  <div class="col-md-6">
+
     {% include index/featured-terms.html field="location" title="Locations" btn-color="outline-secondary" featured=site.data.theme.featured-locations max=site.data.theme.featured-locations-max %}
-</div>
-  <div class="col-md-3"> 
+
     {% include index/objects.html %}
 
   </div>
